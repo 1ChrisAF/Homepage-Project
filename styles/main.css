@@ -49,12 +49,24 @@
     color: #198c8c;
     text-shadow: 2px 2px 0 black;
   }
-  /*
+ /* 
   main section {
     column-count: 2;
     column-rule: 2px solid black;
   }
   */
+  #container1 {
+    margin-right: 1em;
+    border-right: 3px solid black;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    width: 350px;
+    float: left;
+  }
+  #container2 {
+    width: 350px;
+    float: left;
+  }
   main section h2 {
     padding: 0 0 .5em 2em;
     font-variant: small-caps;
@@ -89,6 +101,7 @@
   footer {
     margin: 0 1em .5em;
     border-top: 3px solid black;
+    clear: both;
   }
   footer p {
     padding: .5em 0;
