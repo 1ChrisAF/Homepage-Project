@@ -75,9 +75,10 @@
   main section dl dt {
     font-variant: small-caps;
     font-weight: bolder;
+    padding: 0 0 0 1em;
   }
   main section dl dd {
-    padding: 0 0 .3em 2em;
+    padding: 0 0 .3em 3em;
     font-style: italic;
     font-weight: bold;
   }
